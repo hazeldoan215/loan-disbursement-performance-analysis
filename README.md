@@ -136,15 +136,12 @@ The problem is not lead-generation efficiency, the underwriting process, or oper
 
 ## 9. Repository Structure
 
-> Adjust to match your repo.
-
 ```
 ├── README.md
-├── sql/
-│   └── fintech_analysis.sql        # grain checks, joins, Q1 vs Q2 baseline metrics
-├── powerbi/
-│   └── CS1_HienDoan.pbix           # Power BI report (DAX measures)
-├── report/
-│   └── CS1_HienDoan.pdf            # exported report
-└── data/                           # dataset or link to source
+├── fintech_analysis.sql                    # grain checks, joins, Q1 vs Q2 baseline metrics
+├── Disbursement_Analysis_PowerBI_EN.pbix   # Power BI report (English, DAX measures)
+├── Disbursement_Analysis_PowerBI_EN.pdf    # exported report (English)
+└── Disbursement_Analysis_PowerBI_VN.pdf    # exported report (Vietnamese)
 ```
+
+> **Note:** the dataset is not included in this repository. The SQL file documents the schema (`case1_finance`) and the queries used, and the Power BI file contains the report and DAX measures.
